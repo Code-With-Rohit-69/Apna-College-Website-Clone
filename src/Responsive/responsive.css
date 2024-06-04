@@ -1,0 +1,242 @@
+@media (min-width: 100px) and (max-width: 1100px) {
+    .batch{
+        width: 380px !important;
+    }
+}
+
+@media (max-width: 1000px) {
+    .achievements{
+        padding-inline: 20px !important;
+    }
+    .footer{
+        flex-wrap: wrap;
+    }
+    .foot1, .foot2, .foot3{
+        width: 290px !important;
+    }
+    .foot p{
+        font-size: 15px;
+    }
+    .email{
+        font-size: 15px !important;
+    }
+    .leftBatch{
+       max-width: 100% !important;
+    }
+}
+
+@media (max-width: 900px){
+    .footer{
+        justify-content: space-between;
+    }
+    .foot{
+        width: 350px !important;
+    }
+    .foot p{
+        font-size: 20px;
+        color: #626262 !important;
+    }
+    .question{
+        padding-block: 35px !important;
+    }
+    .questionHeading{
+        font-weight: 600 !important;
+        font-size: 20px !important;
+    }
+    .achievements p{
+        font-size: 14px;
+    }
+    .company .image{
+        width: 15%;
+    }
+    .roundBall{
+        top: -30% !important;
+    }
+    .companiesHeading{
+        font-size: 1.5rem !important;
+    }
+    .companies .companyLogo .logo{
+        width: 6rem;
+    }
+    .main{
+        padding-inline: 0 !important;
+    }
+    .main .left{
+        padding-inline: 3rem;
+    }
+    .videoDiv{
+        width: 380px !important;
+    }
+    nav .right button, nav .right a{
+        display: none;
+    }
+    nav .right .bar{
+        display: block;
+    }
+}
+
+@media (max-width: 771px) {
+    .main{
+        flex-direction: column;
+        padding-bottom: 30px;
+        position: relative;
+        padding-inline: 0 !important;
+    }
+    .main .left{
+        width: 100%;
+        padding-block: 20px;
+    }
+    .main .left h1{
+        font-size: 35px;
+    }
+    .main .left h2{
+        font-size: 18px;
+    }
+    .main .left button{
+        display: none;
+    }
+    .main .right{
+        padding-top: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .main .right img{
+        width: 90%;
+    }
+    .CourseHeading{
+        font-size: 1.1rem !important;
+    }
+    .Batches{
+        flex-direction: column !important;
+    }
+    .Batches .batch{
+        width: 100% !important;
+    }
+    .Batches .batch .batchButton{
+        margin-top: 40px !important;
+    }
+    .batchHeading{
+        font-size: 15px !important;
+    }
+    .nav, .curriculum, .batchOverview, .problemQuestionsPage, footer, .shardhaPage{
+        padding-inline: 30px !important;
+    }
+    .company{
+        padding-inline: 40px !important;
+    }
+}
+
+@media (max-width: 690px) {
+    .rightBatch{
+        flex-direction: column;
+    }
+    .roundBall{
+        top: -22% !important;
+        left: -10% !important;
+    }
+    .LibraryPage{
+        padding-inline: 40px !important;
+    }
+}
+
+@media (max-width: 614px) {
+    .bannerPage h1{
+        font-size: 1.7rem !important;
+    }
+    .bannerPage h3{
+        font-size: 1rem !important;
+    }
+    .bannerPage a{
+        font-size: 1rem !important;
+        padding-inline: 1.5rem;
+    }
+    .subjects .parts .upper h1{
+        font-size: 1.05rem;
+    }
+    .subjects .subTechnology{
+        font-size: 1.2rem;
+    }
+    .subjects .inner ul li{
+        font-size: 1rem;
+    }
+    .subjects .ArrowDownIcon{
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width: 540px) {
+    .companies .companyLogo{
+        justify-content: space-between;
+    }
+    .companies .companyLogo .logo{
+        width: 8rem;
+        margin-left: 0;
+    }
+    .problemQuestionsPage .heading h1{
+        font-size: 1.4rem;
+    }
+    .questions .question{
+        padding-block: 1.5rem !important;
+        padding-inline: 1rem;
+    }
+    .questions .outer .questionHeading, .questions .inner p{
+        font-size: 1rem !important;
+    }
+    .questions .outer .arrows{
+        font-size: 1rem;
+        width: 20px;
+    }
+    .LibraryPage{
+        padding-top: 2rem !important;
+    }
+    .LibraryPage .Library{
+        flex-direction: column;
+    }
+    .LibraryPage .Library .left{
+        width: 100%;
+    }
+    .LibraryPage .Library .right{
+        width: 100%;
+        margin-top: 10px;
+        padding-top: 20px;
+    }
+    .LibraryPage .company .image{
+        width: 8rem;
+    }
+    .CoursePage{
+        padding-inline: 30px !important;
+    }
+    .shardhaPage .achievements{
+        flex-direction: column;
+    }
+    .shardhaPage .achievements .achievementDiv{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .shardhaPage .achievementDiv img{
+        width: 50px;
+    }
+    .shardhaPage .achievements p{
+        text-align: center;
+    }
+}
+
+@media (max-width: 470px) {
+    .LibraryPage .company{
+        padding-inline: 0 !important;
+    }
+    .LibraryPage .company .image{
+        width: 100px;
+    }
+    .batchOverview .rightBatch{
+        padding-inline: 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .company .companies .companyLogo{
+        justify-content: center;
+    }
+}
