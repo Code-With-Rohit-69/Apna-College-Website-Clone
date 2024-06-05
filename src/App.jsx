@@ -34,7 +34,6 @@ function App() {
       {showLogin && <Login hideLogin={toogleLogin} />}
       {showSignUp && <SignUp hideLogin={toogleSignUp} />}
       <Navbar toggleLogin={toogleLogin} toggleSignUp={toogleSignUp} />
-      {/* <Navbar toogleLogin={toogleLogin} toogleSignUp={toogleSignUp} /> */}
       <ResponsiveNavbar />
       <Main />
       <Courses />
