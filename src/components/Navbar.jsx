@@ -44,7 +44,7 @@ export default function Navbar({ toggleLogin, toggleSignUp }) {
             </a>
           ))}
           <FaBars
-            className="bar text-[2rem] text-[#a1a1a1] block lg:hidden md:block"
+            className="bar text-[2rem] text-[#a1a1a1] hidden"
             onClick={clickHandler}
           />
         </div>
