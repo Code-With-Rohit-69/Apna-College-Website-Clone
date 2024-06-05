@@ -1,7 +1,13 @@
 import React from "react";
-import '../Responsive/responsive.css';
+import "../Responsive/responsive.css";
 
 function LibraryPage() {
+  const imageBasePath = "./src/assets/Company/image";
+  const imageCount = 6;
+  const images = Array.from(
+    { length: imageCount },
+    (_, i) => `${imageBasePath}${i + 1}.png`
+  );
   return (
     <div className="LibraryPage w-full bg-[white] px-[4rem] py-[5rem] relative overflow-hidden">
       <div className="roundBall w-[30vw] h-[30vw] bg-[#FFC107] rounded-full absolute top-[-43%] left-[-12%]"></div>
@@ -30,24 +36,11 @@ function LibraryPage() {
         </div>
       </div>
       <div className="company flex justify-between pt-[2rem] flex-wrap">
-        <div className="image w-[9rem] pr-[1rem]">
-          <img src="./src/assets/Company/image1.png" alt="" className=""/>
-        </div>
-        <div className="image w-[9rem] pr-[1rem]">
-          <img src="./src/assets/Company/image2.png" alt="" className=""/>
-        </div>
-        <div className="image w-[9rem] pr-[1rem]">
-          <img src="./src/assets/Company/image3.png" alt="" className=""/>
-        </div>
-        <div className="image w-[9rem] pr-[1rem]">
-          <img src="./src/assets/Company/image4.png" alt="" className=""/>
-        </div>
-        <div className="image w-[9rem] pr-[1rem]">
-          <img src="./src/assets/Company/image5.png" alt="" className=""/>
-        </div>
-        <div className="image w-[9rem] pr-[1rem]">
-          <img src="./src/assets/Company/image6.png" alt="" className=""/>
-        </div>
+        {images.map((item, index) => (
+          <div className="image w-[9rem] pr-[1rem]" key={index}>
+            <img src={item} alt="" className="" />
+          </div>
+        ))}
       </div>
     </div>
   );

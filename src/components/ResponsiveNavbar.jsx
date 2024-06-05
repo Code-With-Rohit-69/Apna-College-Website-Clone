@@ -71,15 +71,10 @@ function ResponsiveNavbar({
           <a href={item.link} style={anchorStyle} onClick={() => {
             closeNavbar()
             index === 3 ? toggleLogin() : index === 4 ? toggleSignUp() : null
-          }}>
+          }} key={index}>
             {item.name}
           </a>
         ))}
-
-        {/* <a href="#" style={anchorStyle} onClick={closeNavbar}></a>
-        <a href="#" style={anchorStyle} onClick={closeNavbar}></a>
-        <a href="./Login.jsx" style={anchorStyle} onClick={toggleLogin}></a>
-        <a href="./SignUp.jsx" style={anchorStyle} onClick={toggleSignUp}></a> */}
       </div>
     </div>
   );
