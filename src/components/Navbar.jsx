@@ -16,7 +16,7 @@ export default function Navbar({ toggleLogin, toggleSignUp }) {
   return (
     <>
       <nav className="nav fixed top-0 flex items-center w-full py-[1rem] px-[5rem] shadow-md justify-between z-[1] bg-white font-sans">
-        <div className="left ">
+        <div className="left">
           <img
             src="./src/assets/logo.png"
             alt="Logo"
